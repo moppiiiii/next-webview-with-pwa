@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: false
+  commands:
+    check audit:
+      run: pnpm audit
+    biome format:
+      glob: "*.{js,ts,jsx,tsx}"
+      run: pnpm biome check --write {staged_files} && git add {staged_files}
+    biome format check:
+      glob: "*.{js,ts,jsx,tsx}"
+      run: pnpm biome check {staged_files}
