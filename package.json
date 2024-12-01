@@ -6,19 +6,31 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "fix": "biome check --write ./src",
+    "check": "biome check ./src",
+    "knip": "knip",
+    "lefthook:init": "lefthook install"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.5.1",
+    "@serwist/next": "^9.0.10",
+    "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@biomejs/biome": "1.9.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "15.0.3"
+    "eslint-config-next": "15.0.3",
+    "knip": "^5.38.3",
+    "lefthook": "^1.8.4",
+    "sass": "^1.81.0",
+    "serwist": "^9.0.10",
+    "typescript": "^5",
+    "zustand": "^5.0.1"
   }
 }
