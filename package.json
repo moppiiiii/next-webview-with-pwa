@@ -8,6 +8,7 @@
     "start": "next start",
     "fix": "biome check --write ./src",
     "check": "biome check ./src",
+    "knip": "knip",
     "lefthook:init": "lefthook install"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
+    "knip": "^5.38.3",
     "lefthook": "^1.8.4",
     "typescript": "^5"
   }
