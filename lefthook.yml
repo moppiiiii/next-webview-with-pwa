@@ -6,6 +6,6 @@ pre-commit:
     biome format:
       glob: "*.{js,ts,jsx,tsx}"
       run: pnpm biome check --write {staged_files} && git add {staged_files}
-    biome check:
+    biome format check:
       glob: "*.{js,ts,jsx,tsx}"
       run: pnpm biome check {staged_files}
