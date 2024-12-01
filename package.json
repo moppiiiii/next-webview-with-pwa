@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "fix": "biome check --write ./src",
-    "check": "biome check ./src"
+    "check": "biome check ./src",
+    "lefthook:init": "lefthook install"
   },
   "dependencies": {
     "next": "15.0.3",
