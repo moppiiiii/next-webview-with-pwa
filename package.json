@@ -8,6 +8,7 @@
     "start": "next start",
     "fix": "biome check --write ./src",
     "check": "biome check ./src",
+    "knip": "knip",
     "lefthook:init": "lefthook install"
   },
   "dependencies": {
