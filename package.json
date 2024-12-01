@@ -13,9 +13,11 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.5.1",
+    "@serwist/next": "^9.0.10",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
@@ -27,6 +29,8 @@
     "knip": "^5.38.3",
     "lefthook": "^1.8.4",
     "sass": "^1.81.0",
-    "typescript": "^5"
+    "serwist": "^9.0.10",
+    "typescript": "^5",
+    "zustand": "^5.0.1"
   }
 }

@@ -6,6 +6,9 @@ import MainLayout from "@/components/layouts/main/Main.layout";
 export const metadata: Metadata = {
   title: "Weather",
   description: "あなたの街の天気を見る",
+  category: "website",
+  generator: "Next.js",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({

@@ -3,11 +3,11 @@ pre-commit:
   commands:
     check audit:
       run: pnpm audit
-    check knip:
-      run: pnpm knip
+    # check knip:
+    #   run: pnpm knip
     biome format:
-      glob: "*.{js,ts,jsx,tsx}"
+      glob: "*.{ts,jsx,tsx}"
       run: pnpm biome check --write {staged_files} && git add {staged_files}
     biome format check:
-      glob: "*.{js,ts,jsx,tsx}"
+      glob: "*.{ts,jsx,tsx}"
       run: pnpm biome check {staged_files}

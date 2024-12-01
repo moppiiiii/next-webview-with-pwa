@@ -1,0 +1,11 @@
+{
+    "id": "your-unique-id",
+    "dir": "ltr",
+    "lang": "en",
+    "categories": [
+      "business",
+      "food",
+      "shopping"
+    ],
+    "prefer_related_applications": false
+}
