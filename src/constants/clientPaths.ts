@@ -1,6 +1,7 @@
-const CLIENT_PATHS = {
+export const CLIENT_PATHS = {
   TOP: "/",
   SETTINGS: "/settings",
+  BAD_REQUEST: "/400",
 } as const;
 
 const createRegexPaths = (paths: readonly string[]) => {
