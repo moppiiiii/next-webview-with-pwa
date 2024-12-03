@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "あなたの街の天気を見る",
   category: "website",
   generator: "Next.js",
-  manifest: "/manifest.json",
+  manifest: "./manifest.json",
 };
 
 export default function RootLayout({
